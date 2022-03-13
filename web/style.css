@@ -132,18 +132,57 @@
 
 /* aprtir da qui se inicia a formatação dos blocos da página */
 
-.titulo01 {
-  margin-top: 15vh;
+/* bloco "NOSSOS SERVIÇOS" */
+
+/* formatação geral dos HR's */
+hr{
+  margin-left:37%;
+  margin-top: 5px;
+}
+
+.servicos {
+  padding-top: 80px;
+  background-color: rgb(235, 235, 235);
+  color: rgb(8, 8, 8);
+  height: 75vh;
+}
+
+.tituloServicos {
   text-align: center;
   font-family: 'Rajdhani', sans-serif;
   font-size: 19px;
   letter-spacing: 1px;
 }
 
-hr{
-  margin-left:37%;
-  margin-top: 5px;
-  color: rgb(146, 25, 146);
+/* bloco "SOBRE NÓS" */
+
+.sobreNos {
+  padding-top: 45px;
+  background-color: rgb(27, 27, 27);
+  color: whitesmoke;
+  height: 75vh;
 }
 
+.tituloSobre {
+  margin-top: 15px;
+  text-align: center;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 19px;
+  letter-spacing: 1px;
+}
 
+/* bloco "CONTATE-NOS" */
+
+.contato {
+  padding-top: 45px;
+  background-color: rgb(240, 236, 236);
+  color: rgb(8, 8, 8);
+  height: 75vh;
+}
+
+.tituloContato {
+  text-align: center;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 19px;
+  letter-spacing: 1px;
+}
