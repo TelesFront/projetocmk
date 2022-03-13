@@ -70,6 +70,7 @@
   }
   
   /* quando a tela for menor que 999px o menu mobile vai aparecer */
+ 
   @media (max-width: 999px) {
     body {
       overflow-x: hidden;
@@ -96,7 +97,11 @@
       display: block;
     }
   }
-  
+  @media (max-width:400px){
+    body {
+      overflow-x: hidden;
+    }
+  }
   .nav-list.active {
     transform: translateX(0);
   }
