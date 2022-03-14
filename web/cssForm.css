@@ -1,5 +1,7 @@
 /* formatação  formulário de CONTATO*/
-
+* {
+    box-sizing: border-box; 
+}
 form{
     font-family: 'Source Sans Pro', sans-serif;
     color: white;
