@@ -2,6 +2,13 @@
 * {
     box-sizing: border-box; 
 }
+.contato {
+    padding-top: 45px;
+    padding-bottom: 15px;
+    background-color: rgb(240, 236, 236);
+    color: rgb(8, 8, 8);
+  }
+  
 form{
     font-family: 'Source Sans Pro', sans-serif;
     color: white;
