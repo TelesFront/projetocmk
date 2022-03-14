@@ -191,27 +191,6 @@ hr{
 
 
 
-form .half .item input:focus, form .full textarea:focus, form .action input[type="reset"]:hover, form .icons a:hover{
-  background: rgba(255,255,255,0.075);
-}
-
-@media (max-width: 480px){
-  form .half{
-    flex-direction: column;
-  }
-  form .half .item{
-    width: 100%;
-  }
-  form .action{
-    display: flex;
-    flex-direction: column;
-  }
-  form .action input{
-    margin-bottom: 10px;
-    width: 100%;
-  }
-}
-
 /* formatação rodapé */
 
 .rodape {
