@@ -191,17 +191,3 @@ hr{
 
 
 
-/* formatação rodapé */
-
-.rodape {
-  background-color: rgb(0, 0, 0);
-  color: rgb(201, 201, 201);
-  padding: 23px;
-}
-.rodape h3{
-  font-family: 'Dosis', sans-serif;
-  letter-spacing: 1px;
-  font-size: 15px;
-  font-weight: unset;
-  text-align: center;
-}
